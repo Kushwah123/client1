@@ -1,0 +1,85 @@
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+ background-color: white;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.col {
+  flex: 1;
+  margin-right: 10px;
+}
+
+label {
+  color: #52514e;
+  display: block;
+  margin-bottom: 5px;
+ font-weight: bold;
+ font-size: 0.8rem;
+}
+
+input[type='text'],
+input[type='email'],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+
+input[type='date'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+input[type='file'] {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+.star{
+  color: red;
+}
+.file{
+  font-size: 0.8rem;
+}
+.street{
+  font-size: 0.8rem;
+  color: #807f7d;
+}
+
